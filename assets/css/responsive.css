@@ -1,0 +1,121 @@
+/* Medium Layout: 1280px. */
+@media only screen and (min-width: 992px) and (max-width: 1200px) { 
+.banner-text {
+  margin-top: 271px;
+}
+.service-title {
+  background-size: calc(79%);
+} 
+.service-title h2 {
+  font-size: 40px;
+  margin-top: 77px;
+}
+.contact-content h2 {
+  font-size: 32px;
+  font-weight: 600;
+  letter-spacing: 2px;
+  line-height: 27px;
+}
+.mainmenu {
+  margin-left: -40px;
+} 
+    
+}
+/* Tablet Layout: 768px. */
+@media only screen and (min-width: 768px) and (max-width: 991px) { 
+
+.mainmenu ul li a {
+  font-size: 19px;
+  padding: 20px 11px;
+}
+.banner-text {
+  margin-top: 245px;
+}
+.service-title h2 {
+  font-size: 35px;
+  letter-spacing: 8px;
+  margin-top: 53px;
+  text-transform: uppercase;
+} 
+.service-title {
+  height: 200px;
+}
+.contact-content h2 {
+  font-size: 20px;
+  font-weight: 600;
+  letter-spacing: 4px;
+  line-height: 10px;
+}
+.contact-content h3 {
+  font-size: 14px;
+  font-weight: 600;
+  letter-spacing: 4px;
+}
+.contact-banner {
+  background-size: contain;
+  height: 130px;
+}
+.mainmenu {
+  margin-left: -15px;
+}
+.mainmenu ul li a {
+  padding: 25px 11px;
+}
+}
+/* Mobile Layout: 320px. */
+@media only screen and (max-width: 767px) { 
+.mainmenu ul li a {
+  color: #fff;
+  display: block;
+  font-size: 19px;
+  font-weight: 500;
+  padding: 4px 7px 1px;
+  text-transform: uppercase;
+}
+.banner-text {
+  margin-top: 240px;
+}
+.banner-text h1 {
+  font-size: 30px;
+  font-weight: bold;
+  letter-spacing: 11px;
+}
+.service-title h2 {
+  font-size: 40px;
+}
+.image-middle img {
+  width: 100%;
+}
+.image-middle {
+  padding-bottom: 35px;
+  text-align: right;
+}
+.single-package {
+  margin-bottom: 40px;
+}
+.mainmenu {
+  text-align: center;
+}
+.contact-content h3 {
+  font-size: 14px;
+  font-weight: 600;
+  letter-spacing: 4px;
+}
+.contact-content h2 {
+  font-size: 21px;
+  font-weight: 600;
+  letter-spacing: 4px;
+  line-height: 24px;
+}
+.logo {
+  text-align: center;
+  margin-bottom: 15px;
+}
+.mainmenu {
+  margin-left: 0;
+} 
+}
+/* Wide Mobile Layout: 480px. */
+@media only screen and (min-width: 480px) and (max-width: 767px) { 
+
+}
