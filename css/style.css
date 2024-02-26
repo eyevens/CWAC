@@ -1,0 +1,317 @@
+@font-face {
+  font-family: Gilroy;
+  src: url(../fonts/Gilroy-Black.ttf);
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: Gilroy;
+  src: url(../fonts/Gilroy-Heavy.ttf);
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: Gilroy;
+  src: url(../fonts/Gilroy-Bold.ttf);
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: Gilroy;
+  src: url(../fonts/Gilroy-Semibold.ttf);
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: Gilroy;
+  src: url(../fonts/Gilroy-Regular.ttf);
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: Gilroy;
+  src: url(../fonts/Gilroy-Light.ttf);
+  font-weight: 100;
+  font-style: normal;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+html {
+  font-size: 10px;
+  scroll-behavior: smooth;
+}
+
+body {
+  background: #fff;
+}
+
+body h1,
+body h2,
+body h3,
+body h4,
+body h5,
+body h6,
+body p {
+  margin: 0;
+}
+
+/* Sticky Header */
+.sticky {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+}
+
+/* Ends */
+
+#header {
+  background: #fff;
+  z-index: 999;
+}
+
+#header .navbar-brand img {
+  max-height: 7rem;
+}
+
+#header .navbar .nav-item {
+  margin-right: 5rem;
+}
+
+#header .navbar .nav-item .nav-link {
+  font-family: Gilroy;
+  font-weight: 400;
+  font-size: 1.4rem;
+  color: #384661;
+  text-transform: uppercase;
+}
+
+#header .navbar .nav-item .nav-link.active {
+  font-family: Gilroy;
+  font-weight: 700;
+}
+
+#banner {
+  padding: 20rem 0;
+  background: url(../images/banner.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+
+#banner .bigTitle {
+  font-family: Gilroy;
+  font-size: 3rem;
+  font-weight: 100;
+  color: #fff;
+  letter-spacing: 1rem;
+}
+
+#banner .smlTitle {
+  font-family: Gilroy;
+  font-size: 9rem;
+  font-weight: 700;
+  color: #fff;
+  letter-spacing: 1rem;
+}
+
+#banner .contactBtn {
+  margin-top: 1rem;
+  font-family: Gilroy;
+  font-size: 1rem;
+  font-weight: 400;
+  text-transform: uppercase;
+  padding: 1.5rem 2rem;
+  border-radius: 3rem;
+  background: #384661;
+  color: #fff;
+}
+
+#wheleBox {
+  padding: 10rem 0;
+}
+
+#wheleBox .card {
+  background: transparent;
+  border: none;
+}
+
+
+#wheleBox .card .card-text {
+  font-size: 1.6rem;
+  line-height: 4rem;
+}
+
+#wheleBox .card .card-title {
+  font-family: Gilroy;
+  font-size: 2.5rem;
+  font-weight: 500;
+  margin: 5rem 0 5rem 0;
+  text-align: center;
+  letter-spacing: .4rem;
+}
+
+#brands {
+  padding: 8rem;
+  margin: 10rem;
+}
+
+#brands .row .row-cols-md-3 .row-cols-1 .g-5 .d-flex .align-items-center .justify-content-center {
+  margin: auto;
+}
+
+.sectionTitle {
+  font-size: 2.5rem;
+  font-weight: 700;
+  letter-spacing: 2px;
+}
+
+.details {
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 1.15;
+}
+
+#carBox {
+  margin: 10rem 0;
+}
+#carBox .details {
+  padding-top: 2rem;
+  line-height: 4rem;
+}
+
+#financeBox {
+  padding: 20rem 0;
+  text-align: center;
+  background: url(../images/smlCar.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+
+#financeBox .sectionTitle {
+  font-family: Gilroy;
+  font-weight: 400;
+  font-size: 5rem;
+  text-align: center;
+  color: #fff;
+  letter-spacing: 2rem;
+}
+
+#beforFooter {
+  text-align: center;
+  padding: 7rem 0;
+  font-family: Gilroy;
+}
+
+#beforFooter .semiTitle {
+  font-size: 2rem;
+  padding-bottom: 5rem;
+  color: #384661;
+}
+
+#beforFooter .semiTitle span {
+  font-weight: 700;
+  color: #000;
+}
+
+#beforFooter .card {
+  border: none;
+}
+
+#beforFooter .footerTitle {
+  font-family: Gilroy;
+  text-align: center;
+  padding-bottom: 2rem;
+  font-weight: 400;
+  color: #384661;
+  padding-bottom: 5rem;
+  font-size: 4rem;
+  margin-top: 10rem;
+}
+
+#footer .address {
+  font-family: Gilroy;
+  font-size: 2.4rem;
+  font-weight: 100;
+  color: #384661;
+}
+
+#footer .socialLink li {
+  font-size: 1.6rem;
+  font-weight: 400;
+  margin-bottom: 1.75rem;
+}
+
+#footer .socialLink li a {
+  color: #0A142F;
+  text-decoration: none;
+}
+
+#copyright {
+  margin-bottom: 10rem;
+}
+#copyright .copyBody {
+  max-width: 67%;
+}
+
+#copyright .copyBody .quckLink li {
+  padding: 1rem 0;
+}
+
+#copyright .copyBody .quckLink a {
+  text-decoration: underline;
+  color: #384661;
+  font-size: 1.6rem;
+}
+
+#copyright .copyrightTxt {
+  font-size: 1.6rem;
+}
+
+@media screen and (max-width: 768px) {
+  html {
+    font-size: 7px;
+  }
+
+  .container {
+    overflow: hidden;
+  }
+
+  #brands .col {
+    text-align: center;
+  }
+
+  .sectionTitle {
+    padding-top: 2rem;
+  }
+
+  #financeBox {
+    margin: 3rem 0;
+  }
+
+  #beforFooter {
+    padding-top: 0;
+  }
+
+  #copyright .copyBody {
+    max-width: 100%;
+  }
+
+  #copyright .copyrightTxt {
+    padding-bottom: 3rem;
+  }
+
+  #footer .address {
+    padding: 3rem 0;
+  }
+
+  #footer .footerTitle {
+    font-size: 2.75rem;
+  }
+}
