@@ -83,6 +83,15 @@ body p {
   margin-right: 5rem;
 }
 
+#header .navbar .nav-spanish {
+  font-family: Gilroy;
+  font-weight: 700;
+  font-size: 1.4rem; 
+  color: #f80404;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
 #header .navbar .nav-item .nav-link {
   font-family: Gilroy;
   font-weight: 400;
@@ -100,7 +109,7 @@ body p {
   padding: 20rem 0;
   background: url(../images/banner.png);
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: auto;
   background-position: center center;
 }
 
@@ -141,7 +150,6 @@ body p {
   border: none;
 }
 
-
 #wheleBox .card .card-text {
   font-size: 1.6rem;
   line-height: 4rem;
@@ -163,6 +171,7 @@ body p {
 
 #brands .row .row-cols-md-3 .row-cols-1 .g-5 .d-flex .align-items-center .justify-content-center {
   margin: auto;
+  width: 100%;
 }
 
 .sectionTitle {
@@ -190,7 +199,7 @@ body p {
   text-align: center;
   background: url(../images/smlCar.png);
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: auto;
   background-position: center center;
 }
 
